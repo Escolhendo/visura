@@ -60,6 +60,6 @@ If you discover a design flaw or potential security concern in the proposed arch
 
 ## License
 
-Visura is open-sourced software licensed under the [MIT license](LICENSE).
+Visura is open-sourced software licensed under the [Visura License](https://github.com/Escolhendo/visura/blob/main/LICENSE.md).
 
 ---
