@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/escolhendo/visura" target="_blank">
-        <img src="docs/visura.png" width="400" alt="Visura Logo">
+        <img src="docs/visuralogo.png" width="400" alt="Visura Logo">
     </a>
 </p>
 
