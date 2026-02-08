@@ -1,65 +1,109 @@
 <p align="center">
-    <a href="https://github.com/escolhendo/visura" target="_blank">
-        <img src="docs/visuralogo.png" width="400" alt="Visura Logo">
-    </a>
+  <a href="https://github.com/escolhendo/visura" target="_blank">
+    <img src="docs/visuralogo.png" width="400" alt="Visura Logo">
+  </a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/<seu-usuario>/visura/actions"><img src="https://img.shields.io/badge/build-pending-lightgrey" alt="Build Status"></a>
-    <a href="#"><img src="https://img.shields.io/badge/status-design--specification-blue" alt="Project Status"></a>
-    <a href="#"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
-    <a href="#"><img src="https://img.shields.io/badge/language-C%2B%2B-brightgreen" alt="Language"></a>
+  <a href="https://github.com/escolhendo/visura/actions">
+    <img src="https://img.shields.io/badge/build-pending-lightgrey" alt="Build Status">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/status-design--specification-blue" alt="Project Status">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/language-C%2B%2B-brightgreen" alt="Language">
+  </a>
 </p>
 
 ---
 
-## About Visura
+# Visura — Adaptive Visual Caching and Dynamic Processing System
 
-> **Note:** This repository contains the **design and specification** of the Visura system. It is currently under development and not yet available as a functional implementation.
+> **Important Note:** This repository currently contains only the **design and specification** of the Visura system.  
+> The project is under development and does not yet provide a functional implementation.
 
-**Visura** is a next-generation system designed to evolve from the **FVIP (Front View Image Processor)**. Its main goal is to provide **intelligent visual caching** and **adaptive post-processing** for the **Unreal Engine 5.6**.  
-The system focuses on reducing GPU load by reusing cached fragments, while dynamically adjusting **filters and shadows** to ensure visual consistency across complex scenes.
+**Visura** is a next-generation system designed to evolve from the **FVIP (Front View Image Processor)**.  
+Its primary goal is to provide an advanced architecture for **intelligent visual caching**, **adaptive post-processing**, and **GPU load reduction** across multiple game engines such as:
 
-Key aspects include:
+- Unreal Engine  
+- Unity  
+- Godot  
 
-- Adaptive spatial cache manager.  
-- Progressive blending of cached fragments to avoid visual pop-ins.  
-- Dynamic post-processing (exposure, tone, contrast, LUTs).  
-- Automatic shadow calibration and adjustment.  
-- Two operational profiles: **Quality** and **Performance**.  
-- Monitoring and debugging tools for runtime analysis.  
+The system focuses on reusing cached rendering fragments while dynamically adjusting visual parameters (filters, exposure, and shadow calibration) to preserve visual consistency in complex scenes.
 
 ---
 
-## Learning Visura
+## Core Goals
 
-The project is in **design phase**, so documentation is focused on conceptual architecture, goals, and roadmap.  
-
-Once implementation begins, integration guides for Unreal Engine and usage examples will be added.
-
----
-
-## Contributing
-
-Contributions are welcome, but please note that the project is in **early design stage**.  
-
-- Open [discussions](https://github.com/escolhendo/visura/discussions) for architectural ideas.  
-- Use [issues](https://github.com/escolhendo/visura/issues) to report design questions or feature proposals.  
-- Submit pull requests only for documentation, design improvements, or proofs of concept.  
-
-Please follow the contribution guide (to be published soon).
+- Reduce GPU workload by minimizing redundant rendering.
+- Provide stable visual quality through adaptive blending and post-processing.
+- Offer scalable runtime profiles for both high-quality and performance-critical scenarios.
+- Support modular integration across different engines.
 
 ---
 
-## Security
+## Key Features
 
-If you discover a design flaw or potential security concern in the proposed architecture, please open a **private security advisory** instead of a public issue.  
-(See [GitHub Security Advisories](https://docs.github.com/en/code-security/security-advisories) for reference.)
+- **Adaptive Spatial Cache Manager**  
+  Dynamically manages cached screen-space/world-space fragments.
+
+- **Progressive Fragment Blending**  
+  Smoothly blends cached fragments to avoid pop-ins and abrupt transitions.
+
+- **Adaptive Post-Processing System**  
+  Dynamic exposure, tone mapping, contrast adjustments, and LUT handling.
+
+- **Automatic Shadow Calibration**  
+  Real-time shadow tuning and consistency correction across cached regions.
+
+- **Operational Profiles**
+  - **Quality Profile** (maximum fidelity)
+  - **Performance Profile** (maximum efficiency)
+
+- **Runtime Monitoring & Debug Tools**  
+  Built-in debugging support for cache visualization and performance tracking.
+
+- **Sound per Effect System (Experimental)**  
+  A procedural approach where in-game music is generated dynamically through layered sound effects and context-driven audio fragments, reducing reliance on pre-rendered full instrumental tracks.
 
 ---
 
-## License
+## Project Status
 
-Visura is open-sourced software licensed under the [Visura License](https://github.com/Escolhendo/visura/blob/main/LICENSE.md).
+Visura is currently in the **design and specification phase**.
+
+This repository contains:
+
+- Architectural concepts
+- Design documentation
+- Technical goals
+- Planned modules and roadmap
+
+Once implementation begins, the repository will include:
+
+- Engine integration guides
+- Proofs of concept
+- Example projects
+- Runtime testing tools
 
 ---
+
+## Roadmap (Planned)
+
+- [ ] Core architecture specification
+- [ ] Cache Manager prototype
+- [ ] Progressive blending prototype
+- [ ] Post-processing adaptive module
+- [ ] Shadow calibration prototype
+- [ ] Debug visualization tools
+- [ ] Engine adapters (Unreal / Unity / Godot)
+- [ ] Sound per Effect prototype
+
+---
+
+## Repository Structure (Planned)
+
