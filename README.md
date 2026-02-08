@@ -105,5 +105,41 @@ Once implementation begins, the repository will include:
 
 ---
 
-## Repository Structure (Planned)
+
+## Contributing
+
+Contributions are welcome, but keep in mind that Visura is still in an **early-stage design phase**.
+
+You can contribute by:
+
+- Opening discussions for architectural proposals  
+  https://github.com/escolhendo/visura/discussions
+
+- Reporting design issues or feature suggestions  
+  https://github.com/escolhendo/visura/issues
+
+- Submitting pull requests for:
+  - Documentation improvements
+  - Technical diagrams
+  - Proofs of concept
+
+A full contribution guide will be published soon.
+
+---
+
+## Security
+
+If you discover a design flaw or potential security concern, please avoid creating a public issue.  
+Instead, open a **private security advisory**.
+
+Reference:  
+https://docs.github.com/en/code-security/security-advisories
+
+---
+
+## License
+
+Visura is open-source software licensed under the **MIT License**.  
+See the [LICENSE](LICENSE.md) file for more information.
+
 
